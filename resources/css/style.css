@@ -2,7 +2,6 @@ html {
   font-size: 16px;
   line-height: 1.4;
   font-family: 'usual',sans-serif;
-  letter-spacing: 0.07rem;
   color: #4A4A4A;
 }
 
@@ -56,15 +55,7 @@ html {
   color: #111;
 }
 
-/********** Header **********/
-
-h1 {
-  /* font-family: 'Frank Ruhl Libre', serif; */
-  font-family: 'usual',sans-serif;
-  letter-spacing: -0.05rem;
-  color: #212121;
-  font-weight: lighter;
-}
+/********** Main **********/
 
 /********** Homepage **********/
 
@@ -73,10 +64,86 @@ h1 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 540px;
+  height: 580px;
   background: url('./../images/homepage-bg.png') no-repeat center;
 }
 
 .homepage h1 {
-  font-size: 4rem;
+  margin-top: -4rem;
+  font-size: 3.6rem;
+  letter-spacing: ;
+}
+
+.project {
+  display: flex;
+  margin: 0 30px 30px 30px;
+  padding: 50px 50px 0 50px;
+}
+
+.project h2 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+}
+
+.project h3 {
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+}
+
+.project .text {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.project .pic {
+  width: 384px;
+}
+
+.project .pic img {
+  display: block; /* To remove bottom border */
+}
+
+.project.mcdonalds {
+  background: #FBDBD6;
+}
+
+.project.allenovery {
+  background: #F4F3F1;
+}
+
+.project.nationalgrid {
+  background: #44388C;
+  color: #fff;
+}
+
+.project.theguardian {
+  background: #45AEC6;
+  color: #fff;
+}
+
+.project.babyfriendly {
+  background: #0DB69F;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
 }
