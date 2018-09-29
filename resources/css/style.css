@@ -1,8 +1,9 @@
 html {
   font-size: 16px;
   line-height: 1.4;
-  font-family: Arial;
-  color: #333;
+  font-family: 'usual',sans-serif;
+  letter-spacing: 0.07rem;
+  color: #4A4A4A;
 }
 
 /********** Navigation **********/
@@ -12,11 +13,12 @@ html {
   /* background: pink; */
   display: flex;
   align-items: center;
+  font-size: 0.9rem;
 }
 
 .nav a {
   text-decoration: none;
-  color: #333;
+  color: #4A4A4A;
 }
 
 .nav .logo {
@@ -42,7 +44,7 @@ html {
 
 .nav ul li {
   display: inline;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   /* background: red; */
 }
 
@@ -57,8 +59,11 @@ html {
 /********** Header **********/
 
 h1 {
-  font-family: 'Frank Ruhl Libre', serif;
-  letter-spacing: -0.1rem;
+  /* font-family: 'Frank Ruhl Libre', serif; */
+  font-family: 'usual',sans-serif;
+  letter-spacing: -0.05rem;
+  color: #212121;
+  font-weight: lighter;
 }
 
 /********** Homepage **********/
@@ -68,8 +73,8 @@ h1 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 600px;
-  background: url("./../images/homepage-bg.png") no-repeat center;
+  height: 540px;
+  background: url('./../images/homepage-bg.png') no-repeat center;
 }
 
 .homepage h1 {
