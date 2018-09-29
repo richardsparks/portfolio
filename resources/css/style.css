@@ -42,3 +42,11 @@ html {
 .nav ul li a:hover {
   color: #111;
 }
+
+/********** Header **********/
+
+h1 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 4rem;
+  letter-spacing: -0.1rem;
+}
