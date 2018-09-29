@@ -8,10 +8,10 @@ html {
 /********** Navigation **********/
 
 .nav {
-  background: pink;
+  margin: 30px 30px 0 30px;
+  /* background: pink; */
   display: flex;
-  align-items:  center;
-  padding: 1rem 1.5rem;
+  align-items: center;
 }
 
 .nav a {
@@ -20,19 +20,30 @@ html {
 }
 
 .nav .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 40%;
+  height: 60px;
+  background: url("./../images/triangle.svg") no-repeat;
+}
+
+.nav .logo a {
+  padding-left: 1.2rem;
+  /* background: pink; */
 }
 
 .nav ul {
   text-align: right;
   width: 60%;
-  background: green;
+  padding-right: 1.2rem;
+  /* background: green; */
 }
 
 .nav ul li {
   display: inline;
   padding-left: 1rem;
-  background: red;
+  /* background: red; */
 }
 
 .nav ul li:first-child {
@@ -47,6 +58,20 @@ html {
 
 h1 {
   font-family: 'Frank Ruhl Libre', serif;
-  font-size: 4rem;
   letter-spacing: -0.1rem;
+}
+
+/********** Homepage **********/
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+  background: url("./../images/homepage-bg.png") no-repeat center;
+}
+
+.homepage h1 {
+  font-size: 4rem;
 }
