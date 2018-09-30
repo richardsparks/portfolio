@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 html {
   font-size: 16px;
   line-height: 1.4;
@@ -13,7 +17,7 @@ a {
 /********** Navigation **********/
 
 .nav {
-  margin: 30px 30px 0 30px;
+  padding: 30px 30px 0 30px;
   /* background: pink; */
   display: flex;
   align-items: center;
@@ -62,22 +66,46 @@ a {
 
 /********** Homepage **********/
 
-.homepage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  height: 580px;
+.homepage header {
+  height: 100%;
   background: url("./../images/homepage-bg.png") no-repeat center;
 }
 
-.homepage h1 {
-  margin-top: -4.5rem;
-  font-size: 3.6rem;
-  letter-spacing: ;
+
+.homepage header div.intro {
+  margin-top: -90px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background: blue; */
 }
 
-/********** Project btns **********/
+.homepage header h1 {
+  font-size: 3.6rem;
+  text-align: center;
+  /* background: red; */
+}
+
+.homepage main {
+  margin-top: -40px;
+}
+
+/********** Project **********/
+
+.project header {
+  height: 100%;
+}
+
+.project.mcdonalds header {
+  background: #FBDBD6;
+}
+
+.project.mcdonalds header .nav .logo {
+  background: url("./../images/triangle-header-mcdonalds.svg") no-repeat;
+}
+
+/********** Buttons **********/
 
 .btn-project article {
   display: flex;
