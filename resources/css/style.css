@@ -5,6 +5,11 @@ html {
   color: #4A4A4A;
 }
 
+a {
+  color: #4A4A4A;
+  text-decoration: none;
+}
+
 /********** Navigation **********/
 
 .nav {
@@ -16,8 +21,6 @@ html {
 }
 
 .nav a {
-  text-decoration: none;
-  color: #4A4A4A;
   letter-spacing: 0.1rem;
   font-weight: lighter;
 }
@@ -57,8 +60,6 @@ html {
   color: #111;
 }
 
-/********** Main **********/
-
 /********** Homepage **********/
 
 .homepage {
@@ -76,67 +77,81 @@ html {
   letter-spacing: ;
 }
 
-.project {
+/********** Project btns **********/
+
+.btn-project article {
   display: flex;
   margin: 0 30px 30px 30px;
   padding: 70px 70px 0 50px;
   overflow: hidden;
 }
 
-.project h2 {
+.btn-project article h2 {
   font-size: 1.8rem;
   font-weight: normal;
   letter-spacing: 0.04rem;
 }
 
-.project h3 {
+.btn-project article h3 {
   margin-top: 0.7rem;
   font-size: 0.9rem;
   font-weight: lighter;
   letter-spacing: 0.1rem;
 }
 
-.project .text {
+.btn-project article .text {
   display: flex;
   align-items: flex-end;
   width: 40%;
   padding-bottom: 50px;
 }
 
-.project .pic {
+.btn-project article .pic {
   display: flex;
   justify-content: flex-end;
   width: 60%;
 }
 
-.project .pic img {
+.btn-project article .pic img {
   display: block; /* To remove bottom border */
 }
 
-.project .shadow img {
+.btn-project article .shadow img {
   box-shadow: 10px 10px 8px #888888;
   box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.07);
 }
 
-.project.mcdonalds {
+/* btn animation */
+
+a.btn-project article {
+  transition: all .2s ease-in-out;
+}
+
+a:hover.btn-project article {
+  transform: scale(1.02);
+}
+
+/* btn colours */
+
+a.btn-project.mcdonalds article {
   background: #FBDBD6;
 }
 
-.project.allenovery {
+a.btn-project.allenovery article {
   background: #F4F3F1;
 }
 
-.project.nationalgrid {
+a.btn-project.nationalgrid article {
   background: #44388C;
   color: #fff;
 }
 
-.project.theguardian {
+a.btn-project.theguardian article {
   background: #45AEC6;
   color: #fff;
 }
 
-.project.babyfriendly {
+a.btn-project.babyfriendly article {
   background: #0DB69F;
   color: #fff;
   padding-right: 68px;
