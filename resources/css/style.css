@@ -98,8 +98,14 @@ html {
 .project .text {
   display: flex;
   align-items: flex-end;
-  width: 100%;
+  width: 40%;
   padding-bottom: 50px;
+}
+
+.project .pic {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
 }
 
 .project .pic img {
