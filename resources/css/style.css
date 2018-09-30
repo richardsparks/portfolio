@@ -95,14 +95,97 @@ a {
 
 .project header {
   height: 100%;
+  overflow: hidden;
 }
 
-.project.mcdonalds header {
+.project header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100%;
+  margin-top: -90px;
+}
+
+.project header .text {
+  margin: 0 0 0 90px;
+  padding: 0 0 100px 0;
+  background: url("./../images/line-vert.svg") no-repeat left bottom;
+}
+
+.project header h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+}
+
+.project header h2, .project header p {
+  margin-top: 0.7rem;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.project header p {
+  font-weight: lighter;
+}
+
+.project header .pic {
+  margin: 0 90px 0 0;
+}
+
+.project header .pic img {
+  display: block; /* To remove bottom border */
+}
+
+.project header .shadow img {
+  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.07);
+}
+
+/********** Project McDonald's **********/
+
+.mcdonalds header {
   background: #FBDBD6;
 }
 
-.project.mcdonalds header .nav .logo {
+.mcdonalds header .nav .logo {
   background: url("./../images/triangle-header-mcdonalds.svg") no-repeat;
+}
+
+/***** Brief *****/
+
+.mcdonalds main .brief {
+  display: flex;
+  height: 720px;
+  background: #CDDCEC;
+}
+
+.mcdonalds main .brief .col-1 {
+  width: 50%;
+}
+
+.mcdonalds main .brief .col-2 {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.mcdonalds main .brief .text {
+  margin: 90px 0 0 90px;
+  width: 400px;
+}
+
+.mcdonalds main .brief .text h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+}
+
+.mcdonalds main .brief .text p {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
 }
 
 /********** Buttons **********/
