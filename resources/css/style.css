@@ -242,7 +242,36 @@ main .container .image img {
   letter-spacing: 0.05rem;
 }
 
+/***** Objectives *****/
 
+.mcdonalds main .objectives {
+  background: #C7E5E4;
+}
+
+/***** Card Sort *****/
+.mcdonalds main .card-sort {
+  background: #EEE;
+}
+
+/***** Objectives *****/
+
+.mcdonalds main .ia {
+  display: flex;
+  flex-direction: column;
+}
+
+.mcdonalds main .ia .text {
+  width: 100%; /* overide default 50% width */
+}
+
+.mcdonalds main .ia .text div {
+  margin-right: 90px;
+  max-width: 800px; /* overide detault 400px */
+}
+
+.mcdonalds main .ia .image {
+  width: 100%; /* overide default 50% width */
+}
 
 
 
