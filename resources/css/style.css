@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 
-/********** Navigation **********/
+/******************** Navigation ********************/
 
 .nav {
   padding: 30px 30px 0 30px;
@@ -64,7 +64,7 @@ a {
   color: #111;
 }
 
-/********** Homepage **********/
+/******************** Homepage ********************/
 
 .homepage header {
   height: 100%;
@@ -91,7 +91,7 @@ a {
   margin-top: -40px;
 }
 
-/********** Project **********/
+/******************** Projects ********************/
 
 .project header {
   height: 100%;
@@ -141,6 +141,40 @@ a {
   box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.07);
 }
 
+/********** Main Containers **********/
+
+main .container {
+  display: flex;
+}
+
+main .container .text, main .container .image {
+  width: 50%;
+}
+
+main .container .text div {
+  margin: 90px 0 0 90px;
+  max-width: 400px;
+}
+
+main .container .text h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+}
+
+main .container .text p {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
+}
+
+main .container .image img {
+  width: 100%;
+  height: 100%;
+}
+
 /********** Project McDonald's **********/
 
 .mcdonalds header {
@@ -154,38 +188,18 @@ a {
 /***** Brief *****/
 
 .mcdonalds main .brief {
-  display: flex;
   height: 720px;
   background: #CDDCEC;
 }
 
-.mcdonalds main .brief .col-1 {
-  width: 50%;
-}
-
-.mcdonalds main .brief .col-2 {
+.mcdonalds main .brief .image {
   display: flex;
   align-items: flex-end;
-  width: 50%;
 }
 
-.mcdonalds main .brief .text {
-  margin: 90px 0 0 90px;
-  width: 400px;
-}
-
-.mcdonalds main .brief .text h3 {
-  font-size: 1.8rem;
-  font-weight: normal;
-  letter-spacing: 0.04rem;
-}
-
-.mcdonalds main .brief .text p {
-  margin-top: 2rem;
-  font-size: 1rem;
-  font-weight: lighter;
-  line-height: 1.8rem;
-  letter-spacing: 0.05rem;
+.mcdonalds main .brief .image img {
+  width: 640px;
+  height: 640px;
 }
 
 /***** Audience *****/
@@ -194,52 +208,50 @@ a {
   display: flex;
   flex-direction: column;
   height: 720px;
-  /* background: green; */
 }
 
 .mcdonalds main .audience .text {
-  margin: 90px 0 0 90px;
-  width: 800px;
-  /* background: purple; */
+  width: 100%; /* overide default 50% width */
 }
 
-.mcdonalds main .audience .text h3 {
-  font-size: 1.8rem;
-  font-weight: normal;
-  letter-spacing: 0.04rem;
+.mcdonalds main .audience .text div {
+  margin-right: 90px;
+  max-width: 800px; /* overide detault 400px */
 }
 
-.mcdonalds main .audience .text p {
-  margin-top: 2rem;
-  font-size: 1rem;
-  font-weight: lighter;
-  line-height: 1.8rem;
-  letter-spacing: 0.05rem;
-}
-
-.mcdonalds main .personas {
+.mcdonalds main .audience .personas {
   display: flex;
   justify-content: space-between;
   margin: 90px 90px 0 90px;
   height: 720px;
   text-align: center;
-  /* background: red; */
 }
 
-.mcdonalds main .personas h4 {
+.mcdonalds main .audience .personas h4 {
   margin: 20px 20px 0 20px;
   font-size: 1.2rem;
   font-weight: normal;
   letter-spacing: 0.04rem;
 }
 
-.mcdonalds main .personas p {
+.mcdonalds main .audience .personas p {
   margin: 1rem 20px 0 20px;
   font-size: 0.8rem;
   font-weight: lighter;
   line-height: 1.2rem;
   letter-spacing: 0.05rem;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /********** Buttons **********/
 
@@ -321,7 +333,7 @@ a.btn-project.babyfriendly article {
   padding-right: 68px;
 }
 
-/********** Navigation **********/
+/******************** Footer ********************/
 
 footer {
   margin: 0 30px 30px 30px;
