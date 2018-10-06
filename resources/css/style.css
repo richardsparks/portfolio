@@ -273,7 +273,10 @@ main .container .image img {
   width: 100%; /* overide default 50% width */
 }
 
-
+/***** Prototype *****/
+.mcdonalds main .prototype {
+  background: #CDDCEC;
+}
 
 
 
