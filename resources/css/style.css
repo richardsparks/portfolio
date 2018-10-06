@@ -188,6 +188,59 @@ a {
   letter-spacing: 0.05rem;
 }
 
+/***** Audience *****/
+
+.mcdonalds main .audience {
+  display: flex;
+  flex-direction: column;
+  height: 720px;
+  /* background: green; */
+}
+
+.mcdonalds main .audience .text {
+  margin: 90px 0 0 90px;
+  width: 800px;
+  /* background: purple; */
+}
+
+.mcdonalds main .audience .text h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+}
+
+.mcdonalds main .audience .text p {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
+}
+
+.mcdonalds main .personas {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 90px 0 90px;
+  height: 720px;
+  text-align: center;
+  /* background: red; */
+}
+
+.mcdonalds main .personas h4 {
+  margin: 20px 20px 0 20px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+}
+
+.mcdonalds main .personas p {
+  margin: 1rem 20px 0 20px;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  line-height: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
 /********** Buttons **********/
 
 .btn-project article {
