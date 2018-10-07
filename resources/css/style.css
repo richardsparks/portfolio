@@ -91,6 +91,86 @@ a {
   margin-top: -40px;
 }
 
+/********** Buttons **********/
+
+.btn-project article {
+  display: flex;
+  margin: 0 30px 30px 30px;
+  padding: 70px 70px 0 50px;
+  overflow: hidden;
+}
+
+.btn-project article h2 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+}
+
+.btn-project article h3 {
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+}
+
+.btn-project article .text {
+  display: flex;
+  align-items: flex-end;
+  width: 40%;
+  padding-bottom: 50px;
+}
+
+.btn-project article .pic {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+.btn-project article .pic img {
+  display: block; /* To remove bottom border */
+}
+
+.btn-project article .shadow img {
+  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.07);
+}
+
+/* btn animation */
+
+a.btn-project article {
+  transition: all .2s ease-in-out;
+}
+
+a:hover.btn-project article {
+  transform: scale(1.02);
+}
+
+/* btn colours */
+
+a.btn-project.mcdonalds article {
+  background: #FBDBD6;
+}
+
+a.btn-project.allenovery article {
+  background: #F4F3F1;
+}
+
+a.btn-project.nationalgrid article {
+  background: #44388C;
+  color: #fff;
+}
+
+a.btn-project.theguardian article {
+  background: #45AEC6;
+  color: #fff;
+}
+
+a.btn-project.babyfriendly article {
+  background: #0DB69F;
+  color: #fff;
+  padding-right: 68px;
+}
+
 /******************** Projects ********************/
 
 .project header {
@@ -253,7 +333,7 @@ main .container .image img {
   background: #EEE;
 }
 
-/***** Objectives *****/
+/***** IA *****/
 
 .mcdonalds main .ia {
   display: flex;
@@ -278,92 +358,31 @@ main .container .image img {
   background: #CDDCEC;
 }
 
-
-
-
-
-
-
-
-/********** Buttons **********/
-
-.btn-project article {
+/***** Design *****/
+.mcdonalds main .design {
   display: flex;
-  margin: 0 30px 30px 30px;
-  padding: 70px 70px 0 50px;
-  overflow: hidden;
+  flex-direction: column;
+  background: #EEE;
 }
 
-.btn-project article h2 {
-  font-size: 1.8rem;
-  font-weight: normal;
-  letter-spacing: 0.04rem;
+.mcdonalds main .design .text {
+  width: 100%; /* overide default 50% width */
 }
 
-.btn-project article h3 {
-  margin-top: 0.7rem;
-  font-size: 0.9rem;
-  font-weight: lighter;
-  letter-spacing: 0.1rem;
+.mcdonalds main .design .text div {
+  margin-right: 90px;
+  max-width: 800px; /* overide detault 400px */
 }
 
-.btn-project article .text {
+.mcdonalds main .design .screenshots {
+  margin: 90px;
   display: flex;
-  align-items: flex-end;
-  width: 40%;
-  padding-bottom: 50px;
+  justify-content: space-between;
 }
 
-.btn-project article .pic {
-  display: flex;
-  justify-content: flex-end;
-  width: 60%;
-}
 
-.btn-project article .pic img {
-  display: block; /* To remove bottom border */
-}
 
-.btn-project article .shadow img {
-  box-shadow: 10px 10px 8px #888888;
-  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.07);
-}
 
-/* btn animation */
-
-a.btn-project article {
-  transition: all .2s ease-in-out;
-}
-
-a:hover.btn-project article {
-  transform: scale(1.02);
-}
-
-/* btn colours */
-
-a.btn-project.mcdonalds article {
-  background: #FBDBD6;
-}
-
-a.btn-project.allenovery article {
-  background: #F4F3F1;
-}
-
-a.btn-project.nationalgrid article {
-  background: #44388C;
-  color: #fff;
-}
-
-a.btn-project.theguardian article {
-  background: #45AEC6;
-  color: #fff;
-}
-
-a.btn-project.babyfriendly article {
-  background: #0DB69F;
-  color: #fff;
-  padding-right: 68px;
-}
 
 /******************** Footer ********************/
 
