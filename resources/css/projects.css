@@ -164,7 +164,7 @@ main .container .image img {
   }
 
   main .container .text div {
-    margin: 60px 20px 0 20px;
+    margin: 40px 20px 0 20px;
   }
 
   main .container .text h3 {
@@ -291,12 +291,31 @@ main .container .image img {
 }
 
 .mcdonalds main .objectives .image {
+  background: #C0DFDE;
   order: 1;
+}
+
+@media only screen and (max-width: 580px) {
+  .mcdonalds main .objectives .text {
+    order: 1;
+  }
+
+  .mcdonalds main .objectives .image {
+    background: none;
+    order: 2;
+  }
+
 }
 
 /***** Card Sort *****/
 .mcdonalds main .card-sort {
   background: #EEE;
+}
+
+@media only screen and (max-width: 580px) {
+  .mcdonalds main .card-sort p {
+    padding-bottom: 2rem;
+  }
 }
 
 /***** IA *****/
