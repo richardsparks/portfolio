@@ -418,22 +418,25 @@ main .container .text p {
 main .container .image img {
   width: 100%;
   height: 100%;
+  display: block; /* To remove bottom border */
 }
 
 @media only screen and (max-width: 580px) {
   main .container {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
   }
-  main .container .text, main .container .image {
+  
+  main .container .text,  main .container .image {
     width: 100%;
   }
+
   main .container .text div {
-    margin: 60px 0 0 20px;
-    max-width: none;
+    margin: 60px 20px 0 20px;
   }
 
   main .container .text h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   main .container .text p {
@@ -456,18 +459,23 @@ main .container .image img {
 /***** Brief *****/
 
 .mcdonalds main .brief {
-  height: 720px;
   background: #CDDCEC;
 }
 
-.mcdonalds main .brief .image {
-  display: flex;
-  align-items: flex-end;
-}
+@media only screen and (min-width: 580px) {
+  .mcdonalds main .brief {
+    height: 720px;
+  }
 
-.mcdonalds main .brief .image img {
-  width: 640px;
-  height: 640px;
+  .mcdonalds main .brief .image {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .mcdonalds main .brief .image img {
+    width: 640px;
+    height: 640px;
+  }
 }
 
 /***** Audience *****/
