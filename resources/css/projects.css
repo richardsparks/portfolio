@@ -51,7 +51,7 @@
   box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.07);
 }
 
-@media only screen and (max-width: 1080px) {
+/* @media only screen and (max-width: 1080px) {
   .project header .pic {
     height: 75%;
   }
@@ -80,7 +80,7 @@
   .project header h1 {
     font-size: 2.3rem;
   }
-}
+} */
 
 @media only screen and (max-width: 580px) {
   .project header .container {
@@ -194,19 +194,32 @@ main .container .image img {
   background: #CDDCEC;
 }
 
-@media only screen and (min-width: 580px) {
+.mcdonalds main .brief {
+  height: 720px;
+}
+
+.mcdonalds main .brief .image {
+  display: flex;
+  align-items: flex-end;
+}
+
+.mcdonalds main .brief .image img {
+  width: 640px;
+  height: 640px;
+}
+
+@media only screen and (max-width: 580px) {
   .mcdonalds main .brief {
-    height: 720px;
+    height: 100%; /* overide fixed height */
   }
 
   .mcdonalds main .brief .image {
-    display: flex;
-    align-items: flex-end;
+    display: inline; /* overide flex */
   }
 
   .mcdonalds main .brief .image img {
-    width: 640px;
-    height: 640px;
+    width: 100%;  /* overide fixed image width */
+    height: 100%; /* overide fixed image height */
   }
 }
 
@@ -231,7 +244,6 @@ main .container .image img {
   display: flex;
   justify-content: space-between;
   margin: 90px 90px 0 90px;
-  height: 720px;
   text-align: center;
 }
 
@@ -248,6 +260,24 @@ main .container .image img {
   font-weight: lighter;
   line-height: 1.2rem;
   letter-spacing: 0.05rem;
+}
+
+@media only screen and (max-width: 580px) {
+  .mcdonalds main .audience {
+    height: 100%; /* overide fixed height */
+  }
+  .mcdonalds main .audience .text div {
+    margin-right: 20px;
+  }
+
+  .mcdonalds main .audience .personas {
+    display: inline; /* overide flex */
+    margin: 40px 20px 0 20px;
+  }
+
+  .mcdonalds main .audience .persona {
+    padding-bottom: 40px;
+  }
 }
 
 /***** Objectives *****/
