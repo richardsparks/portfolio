@@ -204,8 +204,7 @@ main .container .image img {
 }
 
 .mcdonalds main .brief .image img {
-  width: 640px;
-  height: 640px;
+  display: block; /* To remove bottom border */
 }
 
 @media only screen and (max-width: 580px) {
@@ -215,6 +214,7 @@ main .container .image img {
 
   .mcdonalds main .brief .image {
     display: inline; /* overide flex */
+    margin-top: 40px;
   }
 
   .mcdonalds main .brief .image img {
@@ -284,6 +284,14 @@ main .container .image img {
 
 .mcdonalds main .objectives {
   background: #C7E5E4;
+}
+
+.mcdonalds main .objectives .text {
+  order: 2;
+}
+
+.mcdonalds main .objectives .image {
+  order: 1;
 }
 
 /***** Card Sort *****/
