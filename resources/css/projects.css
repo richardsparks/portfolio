@@ -37,7 +37,6 @@
 
 .project header .pic {
   margin: 0 90px 0 0;
-  object-fit: contain; /* contains header image in div */
   height: 80%;
 }
 
@@ -164,7 +163,7 @@ main .container .image img {
   }
 
   main .container .text div {
-    margin: 40px 20px 0 20px;
+    margin: 40px 30px 0 30px;
   }
 
   main .container .text h3 {
@@ -218,8 +217,9 @@ main .container .image img {
   }
 
   .mcdonalds main .brief .image img {
-    width: 100%;  /* overide fixed image width */
-    height: 100%; /* overide fixed image height */
+    margin: 0 auto;
+    width: 75%;  /* overide fixed image width */
+    height: 75%; /* overide fixed image height */
   }
 }
 
@@ -308,6 +308,7 @@ main .container .image img {
 }
 
 /***** Card Sort *****/
+
 .mcdonalds main .card-sort {
   background: #EEE;
 }
@@ -338,12 +339,30 @@ main .container .image img {
   width: 100%; /* overide default 50% width */
 }
 
+@media only screen and (max-width: 580px) {
+  .mcdonalds main .ia .text div {
+    margin-right: 30px;
+  }
+}
+
 /***** Prototype *****/
+
 .mcdonalds main .prototype {
-  background: #CDDCEC;
+  background: #C7E5E4;
+}
+
+.mcdonalds main .prototype .image {
+  background: #C0DFDE;
+}
+
+@media only screen and (max-width: 580px) {
+  .mcdonalds main .prototype .image {
+    background: #C7E5E4;
+  }
 }
 
 /***** Design *****/
+
 .mcdonalds main .design {
   display: flex;
   flex-direction: column;
@@ -360,12 +379,32 @@ main .container .image img {
 }
 
 .mcdonalds main .design .screenshots {
-  margin: 90px;
+  margin: 45px 90px 90px 90px;
   display: flex;
   justify-content: space-between;
 }
 
-/***** End *****/
+.mcdonalds main .design .screenshots img {
+  width: 30%;
+  height: 30%;
+  display: block; /* To remove bottom border */
+  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.07);
+}
+
+@media only screen and (max-width: 580px) {
+  .mcdonalds main .design .text div {
+    margin-right: 30px;
+  }
+  .mcdonalds main .design .screenshots {
+    margin: 30px 30px 40px 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/***** Quote *****/
+
 .mcdonalds main .quote {
   background: #FBDBD6;
 }
@@ -397,8 +436,27 @@ main .container .image img {
 
 .mcdonalds main .quote .text .hyperlink a {
   font-weight: lighter;
-  padding: 0 2rem 0 0;
+  margin: 0 0 0 0;
+  padding: 0.5rem 2rem 0.5rem 0;
   background: url("./../images/arw-right.svg") no-repeat right;
+  transition: all .2s ease-in-out; /* Animation */
+}
+
+.mcdonalds main .quote .text .hyperlink a:hover {
+  padding-right: 2.4rem ;
+  color: black;
+}
+
+@media only screen and (max-width: 580px) {
+  .mcdonalds main .quote .text {
+    padding-bottom: 60px;
+  }
+  .mcdonalds main .quote .text h3 {
+    line-height: 2rem;
+  }
+  .mcdonalds main .quote .text h4 {
+    margin-top: 1rem;
+  }
 }
 
 /********** End **********/
