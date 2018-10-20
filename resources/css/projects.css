@@ -657,4 +657,269 @@ main .container .image img {
   }
 }
 
+/********** Project National Grid **********/
+
+.nationalgrid header {
+  background: #1C80BB;
+  color: #fff;
+}
+
+.nationalgrid header .nav a {
+  color: #fff;
+}
+
+.nationalgrid header .nav .logo {
+  background: url("./../images/triangle-header-nationalgrid.svg") no-repeat;
+}
+
+/***** Brief *****/
+
+.nationalgrid main .brief {
+  background: #00283F url("./../images/proj-nationalgrid-brief@2x.png") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+.nationalgrid main .brief {
+  height: 720px;
+}
+
+@media only screen and (max-width: 580px) {
+  .nationalgrid main .brief {
+    height: 100%; /* overide fixed height */
+  }
+}
+
+/***** Audience *****/
+
+.nationalgrid main .audience {
+  display: flex;
+  flex-direction: column;
+  height: 720px;
+}
+
+.nationalgrid main .audience .text {
+  width: 100%; /* overide default 50% width */
+}
+
+.nationalgrid main .audience .text div {
+  margin-right: 90px;
+  max-width: 800px; /* overide detault 400px */
+}
+
+.nationalgrid main .audience .personas {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 90px 0 90px;
+  text-align: center;
+}
+
+.nationalgrid main .audience .personas h4 {
+  margin: 20px 20px 0 20px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  letter-spacing: 0.04rem;
+}
+
+.nationalgrid main .audience .personas p {
+  margin: 1rem 20px 0 20px;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  line-height: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+@media only screen and (max-width: 580px) {
+  .nationalgrid main .audience {
+    height: 100%; /* overide fixed height */
+  }
+  .nationalgrid main .audience .text div {
+    margin-right: 20px;
+  }
+
+  .nationalgrid main .audience .personas {
+    display: inline; /* overide flex */
+    margin: 40px 20px 0 20px;
+  }
+
+  .nationalgrid main .audience .persona {
+    padding-bottom: 40px;
+  }
+}
+
+/***** Objectives *****/
+
+.nationalgrid main .objectives {
+  background: #EEE;
+}
+
+.nationalgrid main .objectives .text {
+  order: 2;
+}
+
+.nationalgrid main .objectives .image {
+  background: #DDD;
+  order: 1;
+}
+
+@media only screen and (max-width: 580px) {
+  .nationalgrid main .objectives .text {
+    order: 1;
+  }
+
+  .nationalgrid main .objectives .image {
+    background: none;
+    order: 2;
+  }
+}
+
+/***** Card Sort *****/
+
+.nationalgrid main .card-sort {
+  background: #EEE;
+}
+
+@media only screen and (max-width: 580px) {
+  .nationalgrid main .card-sort p {
+    padding-bottom: 2rem;
+  }
+}
+
+/***** Prototype *****/
+
+.nationalgrid main .prototype {
+  background: #3B144A;
+  color: #fff;
+}
+
+.nationalgrid main .prototype .image {
+  background: #421F4F;
+}
+
+@media only screen and (max-width: 580px) {
+  .nationalgrid main .prototype .image {
+    background: #3B144A;
+  }
+}
+
+/***** Search *****/
+
+.nationalgrid main .search {
+  background: #FFF;
+}
+
+@media only screen and (max-width: 580px) {
+  .nationalgrid main .search p {
+    padding-bottom: 2rem;
+  }
+}
+
+/***** Design *****/
+
+.nationalgrid main .design {
+  background: #EEE;
+}
+
+@media only screen and (max-width: 580px) {
+  .nationalgrid main .design p {
+    padding-bottom: 2rem;
+  }
+}
+
+/***** Map *****/
+
+.nationalgrid main .map {
+  display: flex;
+  flex-direction: column;
+}
+
+.nationalgrid main .map .text {
+  width: 100%; /* overide default 50% width */
+}
+
+.nationalgrid main .map .text div {
+  margin-right: 90px;
+  max-width: 800px; /* overide detault 400px */
+}
+
+.nationalgrid main .map .screencapture {
+  margin: 45px 90px 90px 90px;
+}
+
+.nationalgrid main .map .screencapture img {
+  width: 100%;
+  height: 100%;
+  display: block; /* To remove bottom border */
+  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.07);
+}
+
+@media only screen and (max-width: 580px) {
+  .nationalgrid main .map .text div {
+    margin-right: 30px;
+  }
+
+  .nationalgrid main .map .screencapture {
+    margin: 0 30px 30px 30px;
+  }
+}
+
+/***** Quote *****/
+
+.nationalgrid main .quote {
+  background: #1C80BB;
+  color: #fff;
+}
+
+.nationalgrid main .quote .text {
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nationalgrid main .quote .text div {
+  max-width: 600px; /* overide detault 400px */
+}
+
+.nationalgrid main .quote .text h3 {
+  line-height: 2.5rem;
+}
+
+.nationalgrid main .quote .text h4 {
+  margin-top: 2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
+}
+
+.nationalgrid main .quote .text p {
+  margin-top: 0;
+}
+
+.nationalgrid main .quote .text .hyperlink a {
+  font-weight: lighter;
+  margin: 0 0 0 0;
+  padding: 0.5rem 2rem 0.5rem 0;
+  background: url("./../images/arw-right.svg") no-repeat right;
+  transition: all .2s ease-in-out; /* Animation */
+  color: #fff;
+}
+
+.nationalgrid main .quote .text .hyperlink a:hover {
+  padding-right: 2.4rem ;
+  color: #fff;
+}
+
+@media only screen and (max-width: 580px) {
+  .nationalgrid main .quote .text {
+    padding-bottom: 60px;
+  }
+  .nationalgrid main .quote .text h3 {
+    line-height: 2rem;
+  }
+  .nationalgrid main .quote .text h4 {
+    margin-top: 1rem;
+  }
+}
+
 /********** End **********/
