@@ -83,14 +83,36 @@ a {
 
 footer {
   margin: 30px 30px 30px 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer a {
   display: flex;
+  font-weight: lighter;
+  justify-content: center;
+  height: 60px;
+}
+
+footer a.up {
+  width: 60px;
+  background: url("./../images/triangle-footer.svg") no-repeat;
+}
+
+footer a.next span.arw {
+  display: flex;
   justify-content: center;
   width: 60px;
-  height: 60px;
-  background: url("./../images/triangle-footer.svg") no-repeat;
+  background: url("./../images/triangle-footer-next.svg") no-repeat;
+}
+
+footer a.next span.txt {
+  display: flex;
+  align-items: center;
+}
+
+footer a.next span.txt span {
+  background: orange;
 }
 
 @media only screen and (max-width: 580px) {
