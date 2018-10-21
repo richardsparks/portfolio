@@ -138,12 +138,17 @@ main .container .text h3 {
   letter-spacing: 0.04rem;
 }
 
-main .container .text p {
+main .container .text p, main .container .text ol {
   margin-top: 2rem;
   font-size: 1rem;
   font-weight: lighter;
   line-height: 1.8rem;
   letter-spacing: 0.05rem;
+}
+
+main .container .text ol {
+  list-style-type: decimal;
+  padding-left: 1.2rem;
 }
 
 main .container .image img {
@@ -293,6 +298,15 @@ main .container .image img {
 .mcdonalds main .objectives .image {
   background: #C0DFDE;
   order: 1;
+}
+
+.mcdonalds main .objectives .image img {
+  margin-top: 28.125%;
+  margin-bottom: 28.125%;
+  height: auto;
+  width: 81.25%;
+  margin-left: 9.375%;
+  margin-right: 9.375%;
 }
 
 @media only screen and (max-width: 580px) {

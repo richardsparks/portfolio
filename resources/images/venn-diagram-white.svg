@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="522px" height="282px" viewBox="0 0 522 282" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="needs-goals" transform="translate(-59.000000, -179.000000)">
+            <g id="Group" transform="translate(60.000000, 180.000000)">
+                <circle id="Oval-Copy-4" stroke="#FFFFFF" stroke-width="1.5" cx="140" cy="140" r="140"></circle>
+                <circle id="Oval-Copy-8" stroke="#FFFFFF" stroke-width="1.5" cx="380" cy="140" r="140"></circle>
+                <text id="Business-goals" font-family="Usual-Regular, Usual" font-size="18" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="101.318" y="135">Business</tspan>
+                    <tspan x="116.879" y="157">goals</tspan>
+                </text>
+                <text id="User-needs" font-family="Usual-Regular, Usual" font-size="18" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="359.876" y="135">User</tspan>
+                    <tspan x="353.756" y="157">needs</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
