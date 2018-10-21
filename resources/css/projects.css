@@ -675,7 +675,7 @@ main .container .image img {
 /********** Project National Grid **********/
 
 .nationalgrid header {
-  background: #1C80BB;
+  background: #0074B8;
   color: #fff;
 }
 
@@ -685,6 +685,10 @@ main .container .image img {
 
 .nationalgrid header .nav .logo {
   background: url("./../images/triangle-header-nationalgrid.svg") no-repeat;
+}
+
+.nationalgrid header .text {
+  background: url("./../images/line-vert-white.svg") no-repeat left bottom;
 }
 
 /***** Brief *****/
@@ -765,7 +769,8 @@ main .container .image img {
 /***** Objectives *****/
 
 .nationalgrid main .objectives {
-  background: #EEE;
+  background: #0074B8;
+  color: #FFF;
 }
 
 .nationalgrid main .objectives .text {
@@ -775,6 +780,15 @@ main .container .image img {
 .nationalgrid main .objectives .image {
   background: #1C80BB;
   order: 1;
+}
+
+.nationalgrid main .objectives .image img {
+  margin-top: 28.125%;
+  margin-bottom: 28.125%;
+  height: auto;
+  width: 81.25%;
+  margin-left: 9.375%;
+  margin-right: 9.375%;
 }
 
 @media only screen and (max-width: 580px) {
@@ -832,6 +846,8 @@ main .container .image img {
 /***** Design *****/
 
 .nationalgrid main .design {
+  background: #0074B8;
+  background: #3B144A;
   background: #EEE;
 }
 
@@ -882,7 +898,7 @@ main .container .image img {
 /***** Quote *****/
 
 .nationalgrid main .quote {
-  background: #1C80BB;
+  background: #0074B8;
   color: #fff;
 }
 
@@ -950,6 +966,10 @@ main .container .image img {
 
 .theguardian header .nav .logo {
   background: url("./../images/triangle-header-theguardian.svg") no-repeat;
+}
+
+.theguardian header .text {
+  background: url("./../images/line-vert-white.svg") no-repeat left bottom;
 }
 
 /***** Brief *****/
@@ -1022,7 +1042,8 @@ main .container .image img {
 /***** User Testing *****/
 
 .theguardian main .user-testing {
-  background: #EEE;
+  background: #EA6A23;
+  color: #fff;
 }
 
 @media only screen and (max-width: 580px) {
@@ -1031,11 +1052,11 @@ main .container .image img {
   }
 }
 
-/***** Approach *****/
+/***** Mission *****/
 
 .theguardian main .mission {
-  background: #45AEC6;
-  color: white;
+  background: #666;
+  color: #FFF;
 }
 
 .theguardian main .mission .text {
@@ -1046,14 +1067,27 @@ main .container .image img {
   order: 1;
 }
 
-/***** Sitemap *****/
+/***** IA *****/
 
-.theguardian main .sitemap {
+.theguardian main .ia {
   background: #EEE;
 }
 
+.theguardian main .ia .image {
+  background: #DDD;
+}
+
+.theguardian main .ia .image img {
+  margin-top: 15.15625%;
+  margin-bottom: 15.15625%;
+  height: auto;
+  width: 81.25%;
+  margin-left: 9.375%;
+  margin-right: 9.375%;
+}
+
 @media only screen and (max-width: 580px) {
-  .theguardian main .sitemap p {
+  .theguardian main .ia p {
     padding-bottom: 2rem;
   }
 }
@@ -1061,7 +1095,7 @@ main .container .image img {
 /***** Direction *****/
 
 .theguardian main .direction {
-  background: #F2E378;
+  background: #F8E84D;
 }
 
 @media only screen and (max-width: 580px) {
