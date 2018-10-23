@@ -233,7 +233,6 @@ main .container .image img {
 .mcdonalds main .audience {
   display: flex;
   flex-direction: column;
-  height: 720px;
 }
 
 .mcdonalds main .audience .text {
@@ -248,7 +247,7 @@ main .container .image img {
 .mcdonalds main .audience .personas {
   display: flex;
   justify-content: space-between;
-  margin: 90px 90px 0 90px;
+  margin: 8rem 90px 8rem 90px;
   text-align: center;
 }
 
@@ -714,7 +713,6 @@ main .container .image img {
 .nationalgrid main .audience {
   display: flex;
   flex-direction: column;
-  height: 720px;
 }
 
 .nationalgrid main .audience .text {
@@ -729,7 +727,7 @@ main .container .image img {
 .nationalgrid main .audience .personas {
   display: flex;
   justify-content: space-between;
-  margin: 90px 90px 0 90px;
+  margin: 10rem 90px 90px 90px;
   text-align: center;
 }
 
@@ -994,7 +992,6 @@ main .container .image img {
 .theguardian main .audience {
   display: flex;
   flex-direction: column;
-  height: 720px;
 }
 
 .theguardian main .audience .text {
@@ -1009,8 +1006,12 @@ main .container .image img {
 .theguardian main .audience .personas {
   display: flex;
   justify-content: space-between;
-  margin: 90px 90px 0 90px;
+  margin: 10rem 90px 90px 90px;
   text-align: center;
+}
+
+.theguardian main .audience .personas .persona {
+  width: 146px;
 }
 
 .theguardian main .audience .personas h4 {
