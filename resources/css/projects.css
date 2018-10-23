@@ -132,7 +132,7 @@ main .container .text div {
   max-width: 400px;
 }
 
-main .container .text h3 {
+main .container .text h3, main .container .text h4 {
   font-size: 1.8rem;
   font-weight: normal;
   letter-spacing: 0.04rem;
@@ -576,7 +576,7 @@ main .container .image img {
 }
 
 .ao main .design .screenshots {
-  margin: 45px 90px 90px 90px;
+  margin: 45px 90px 0 90px;
   display: flex;
   justify-content: space-between;
 }
@@ -590,7 +590,7 @@ main .container .image img {
 }
 
 .ao main .design .screencapture {
-  margin: 0 90px 90px 90px;
+  margin: 45px 90px 90px 90px;
 }
 
 .ao main .design .screencapture img {
@@ -931,7 +931,7 @@ main .container .image img {
   font-weight: lighter;
   margin: 0 0 0 0;
   padding: 0.5rem 2rem 0.5rem 0;
-  background: url("./../images/arw-right.svg") no-repeat right;
+  background: url("./../images/arw-right-white.svg") no-repeat right;
   transition: all .2s ease-in-out; /* Animation */
   color: #fff;
 }
@@ -1186,7 +1186,7 @@ main .container .image img {
   font-weight: lighter;
   margin: 0 0 0 0;
   padding: 0.5rem 2rem 0.5rem 0;
-  background: url("./../images/arw-right.svg") no-repeat right;
+  background: url("./../images/arw-right-white.svg") no-repeat right;
   transition: all .2s ease-in-out; /* Animation */
   color: #fff;
 }
