@@ -46,7 +46,6 @@
 }
 
 .project header .shadow img {
-  box-shadow: 10px 10px 8px #888888;
   box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.07);
 }
 
@@ -973,7 +972,7 @@ main .container .image img {
 /***** Brief *****/
 
 .theguardian main .brief {
-  background: url("./../images/proj-theguardian-brief@2x.png") no-repeat center;
+  background: url("./../images/proj-theguardian-brief@2x.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -1205,6 +1204,261 @@ main .container .image img {
     line-height: 2rem;
   }
   .theguardian main .quote .text h4 {
+    margin-top: 1rem;
+  }
+}
+
+/********** Project Baby Friendly **********/
+
+.babyfriendly header {
+  background: #0DB69F;
+  color: #fff;
+}
+
+.babyfriendly header .nav a {
+  color: #fff;
+}
+
+.babyfriendly header .nav .logo {
+  background: url("./../images/triangle-header-bf.svg") no-repeat;
+}
+
+.babyfriendly header .text {
+  background: url("./../images/line-vert-white.svg") no-repeat left bottom;
+}
+
+.babyfriendly header .shadow img {
+  box-shadow: 0px 30px 10px 3px rgba(0, 0, 0, 0.07);
+}
+
+/***** Brief *****/
+
+.babyfriendly main .brief {
+  background: url("./../images/proj-bf-brief@2x.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.babyfriendly main .brief {
+  height: 720px;
+}
+
+.babyfriendly main .container.brief .text {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.babyfriendly main .container.brief .text div {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 580px) {
+  .babyfriendly main .brief {
+    height: 100%; /* overide fixed height */
+  }
+}
+
+/***** Idea Analysis *****/
+
+.babyfriendly main .idea-analysis {
+  text-align: center;
+}
+
+.babyfriendly main .idea {
+  background: #FFDA1F;
+}
+
+.babyfriendly main .idea div  {
+  background: url("./../images/proj-bf-icon-light-bulb.svg") no-repeat center;
+}
+
+.babyfriendly main .analysis {
+  background: #F3D01E;
+}
+
+.babyfriendly main .analysis div  {
+  background: url("./../images/proj-bf-magnifing-glass.svg") no-repeat center;
+}
+
+.babyfriendly main .idea-analysis .text {
+  display: flex;
+  justify-content: center;
+}
+
+.babyfriendly main .idea-analysis .text div {
+  margin: 5rem 0 15rem 0;
+  padding: 15rem 0 0 0;
+}
+
+
+@media only screen and (max-width: 580px) {
+  .babyfriendly main .idea-analysis p {
+    padding-bottom: 2rem;
+  }
+}
+
+/***** Affinity mapping *****/
+
+.babyfriendly main .affinity {
+  background: url("./../images/proj-bf-affinity@2x.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.babyfriendly main .affinity {
+  height: 720px;
+}
+
+.babyfriendly main .container.affinity .text {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.babyfriendly main .container.affinity .text div {
+  background: url("./../images/proj-bf-icon-affinity.svg") no-repeat center;
+  margin: 0 auto 15rem auto;
+  padding: 20rem 0 0 0;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 580px) {
+  .babyfriendly main .affinity {
+    height: 100%; /* overide fixed height */
+  }
+}
+
+/***** Persona *****/
+
+.babyfriendly main .persona {
+  background: #666666;
+  color: #fff;
+}
+
+.babyfriendly main .persona .text div {
+  margin: 90px;
+  max-width: 100%;
+}
+
+.babyfriendly main .persona .text h4 {
+  margin: 4rem 0 0 0;
+  font-size: 1.2rem;
+}
+
+
+
+@media only screen and (max-width: 580px) {
+  .babyfriendly main .persona p {
+    padding-bottom: 2rem;
+  }
+}
+
+/***** Idea Analysis *****/
+
+.babyfriendly main .problem-solution {
+  text-align: center;
+  color: #fff;
+}
+
+.babyfriendly main .problem {
+  background: #31C0AD;
+}
+
+.babyfriendly main .solution {
+  background: #0DB69F url("./../images/proj-bf-solution-triangle.svg") no-repeat left center;
+}
+
+.babyfriendly main .problem-solution .text {
+  display: flex;
+  justify-content: center;
+}
+
+.babyfriendly main .problem-solution .text div {
+  margin: 17rem 0;
+}
+
+@media only screen and (max-width: 580px) {
+  .babyfriendly main .problem-solution p {
+    padding-bottom: 2rem;
+  }
+}
+
+/***** Design patterns *****/
+
+.babyfriendly main .design-patterns {
+  background: url("./../images/proj-bf-design-patterns@2x.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.babyfriendly main .design-patterns {
+  height: 640px;
+}
+
+.babyfriendly main .container.design-patterns .text {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.babyfriendly main .container.design-patterns .text div {
+  background: url("./../images/proj-bf-magnifing-glass.svg") no-repeat center;
+  margin: 0 auto 8rem auto;
+  padding: 13rem 0 0 0;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 580px) {
+  .babyfriendly main .design-patterns {
+    height: 100%; /* overide fixed height */
+  }
+}
+
+/***** Prototype *****/
+
+.babyfriendly main .prototype {
+  background: #eee;
+}
+
+.babyfriendly main .prototype .text {
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.theguardian main .prototype .text div {
+  max-width: 600px; /* overide detault 400px */
+}
+
+.babyfriendly main .prototype .text h3 {
+  line-height: 2.5rem;
+}
+
+.babyfriendly main .prototype .text h4 {
+  margin-top: 2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
+  font-size: 1.2rem;
+}
+
+.babyfriendly main .prototype .text p {
+  margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 580px) {
+  .theguardian main .prototype .text {
+    padding-bottom: 60px;
+  }
+  .babyfriendly main .prototype .text h3 {
+    line-height: 2rem;
+  }
+  .babyfriendly main .prototype .text h4 {
     margin-top: 1rem;
   }
 }
