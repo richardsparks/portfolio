@@ -12,9 +12,6 @@
   </head>
   <body class="homepage">
 
-    <!-- NOTE: add a wapper div to all content you want loaded via PJAX with id and the class of the transisiton -->
-    <div id="swup" class="transition-fade">
-
     <!-- NOTE: Added app here to hook onto the svg-foller.js -->
     <div id="app" class="c-svg-follower">
       <svg id="stage" class="c-svg-follower__stage" width="200" height="200" xmlns="http://www.w3.org/2000/svg"></svg>
@@ -106,8 +103,6 @@
       </a>
     </main>
 
-    </div><!-- END #swup -->
-
     <footer>
       <a href="#" class="up">
         <img src="./resources/images/arw-up.svg" alt="Up arrow">
@@ -119,11 +114,6 @@
     <!-- Reactive Extensions Library for JavaScript - more info: https://rxjs-dev.firebaseapp.com/ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.0.1/Rx.min.js"></script>
     <script src="./resources/js/svg-follower.js"></script>
-
-    <!-- NOTE: Load this in all pages so we have swup globally on each page for PJAX -->
-    <script src="https://cdn.jsdelivr.net/npm/swup@1.5.2/dist/swup.min.js"></script>
-
-    <!-- NOTE: Load Main.js in all pages so we init PJAX -->
-    <script src="./resources/js/main.js"></script>
+    
   </body>
 </html>
