@@ -2,9 +2,9 @@
 
 .homepage header {
   height: 100%;
-  background: url("./../images/homepage-bg.png") no-repeat center;
+  height: 100vh; // the line 100% height will not work with the SVG animaiton. added 100vh
+  /* background: url("./../images/homepage-bg.png") no-repeat center; */ // /removed background-image
 }
-
 
 .homepage header div.intro {
   margin-top: -90px;
