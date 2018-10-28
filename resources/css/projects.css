@@ -265,6 +265,10 @@ main .container .image img {
   letter-spacing: 0.05rem;
 }
 
+.mcdonalds main .audience .persona {
+  width: 100%;
+}
+
 @media only screen and (max-width: 580px) {
   .mcdonalds main .audience {
     height: 100%; /* overide fixed height */
@@ -280,6 +284,7 @@ main .container .image img {
 
   .mcdonalds main .audience .persona {
     padding-bottom: 40px;
+    width: auto;
   }
 }
 
@@ -364,7 +369,20 @@ main .container .image img {
 }
 
 .mcdonalds main .prototype .image {
-  background: #C0DFDE;
+  background: #C0DFDE url("./../images/prototype-ipad@2x.png") center center no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mcdonalds main .prototype .image img {
+  margin-top: 17.96875%;
+  margin-bottom: 17.96875%;
+  height: auto;
+  width: 48.4375%;
+  margin-left: 25.78125%;
+  margin-right: 25.78125%;
 }
 
 @media only screen and (max-width: 580px) {
@@ -546,8 +564,22 @@ main .container .image img {
 }
 
 .ao main .prototype .image {
-  background: #EEEDEB;
+  background: #EEEDEB url("./../images/prototype-ipad@2x.png") center center no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.ao main .prototype .image img {
+  margin-top: 17.96875%;
+  margin-bottom: 17.96875%;
+  height: auto;
+  width: 48.4375%;
+  margin-left: 25.78125%;
+  margin-right: 25.78125%;
+}
+
 
 @media only screen and (max-width: 580px) {
   .ao main .prototype .image {
@@ -574,7 +606,7 @@ main .container .image img {
 }
 
 .ao main .design .screenshots {
-  margin: 45px 90px 0 90px;
+  margin: 45px 90px 90px 90px;
   display: flex;
   justify-content: space-between;
 }
@@ -582,18 +614,6 @@ main .container .image img {
 .ao main .design .screenshots img {
   width: 30%;
   height: 30%;
-  display: block; /* To remove bottom border */
-  box-shadow: 10px 10px 8px #888888;
-  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.07);
-}
-
-.ao main .design .screencapture {
-  margin: 45px 90px 90px 90px;
-}
-
-.ao main .design .screencapture img {
-  width: 100%;
-  height: 100%;
   display: block; /* To remove bottom border */
   box-shadow: 10px 10px 8px #888888;
   box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.07);
@@ -608,8 +628,44 @@ main .container .image img {
     display: flex;
     justify-content: space-between;
   }
+}
 
-  .ao main .design .screencapture {
+/***** Campaign Update *****/
+
+.ao main .campaign-update {
+  display: flex;
+  flex-direction: column;
+  background: #404E57;
+  color: white;
+}
+
+.ao main .campaign-update .text {
+  width: 100%; /* overide default 50% width */
+}
+
+.ao main .campaign-update .text div {
+  margin-right: 90px;
+  max-width: 800px; /* overide detault 400px */
+}
+
+.ao main .campaign-update .screencapture {
+  margin: 45px 90px 90px 90px;
+}
+
+.ao main .campaign-update .screencapture img {
+  width: 100%;
+  height: 100%;
+  display: block; /* To remove bottom border */
+  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.07);
+}
+
+@media only screen and (max-width: 580px) {
+  .ao main .campaign-update .text div {
+    margin-right: 30px;
+  }
+
+  .ao main .campaign-update .screencapture {
     margin: 0 30px 30px 30px;
   }
 }
@@ -656,6 +712,10 @@ main .container .image img {
 .ao main .quote .text .hyperlink a:hover {
   padding-right: 2.4rem ;
   color: black;
+}
+
+.ao main .quote .image {
+  background: #EEEDEB;
 }
 
 @media only screen and (max-width: 580px) {
@@ -819,7 +879,20 @@ main .container .image img {
 }
 
 .nationalgrid main .prototype .image {
-  background: #421F4F;
+  background: #421F4F url("./../images/prototype-ipad@2x.png") center center no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nationalgrid main .prototype .image img {
+  margin-top: 17.96875%;
+  margin-bottom: 17.96875%;
+  height: auto;
+  width: 48.4375%;
+  margin-left: 25.78125%;
+  margin-right: 25.78125%;
 }
 
 @media only screen and (max-width: 580px) {
@@ -1425,6 +1498,14 @@ main .container .image img {
   background: #eee;
 }
 
+.babyfriendly main .prototype.one .text, .babyfriendly main .prototype.three .text {
+  order: 2;
+}
+
+.babyfriendly main .prototype.one, .babyfriendly main .prototype.three .image {
+  order: 1;
+}
+
 .babyfriendly main .prototype .text {
   padding-bottom: 90px;
   display: flex;
@@ -1449,6 +1530,23 @@ main .container .image img {
 
 .babyfriendly main .prototype .text p {
   margin-top: 0.5rem;
+}
+
+.babyfriendly main .prototype .image {
+  background: #DDDDDD url("./../images/prototype-iphone@2x.png") center center no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.babyfriendly main .prototype .image img {
+  margin-top: 20.3125%;
+  margin-bottom: 20.3125%;
+  height: auto;
+  width: 34.375%;
+  margin-left: 32.8125%;
+  margin-right: 32.8125%;
 }
 
 @media only screen and (max-width: 580px) {
