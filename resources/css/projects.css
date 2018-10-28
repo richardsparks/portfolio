@@ -1506,6 +1506,15 @@ main .container .image img {
   order: 1;
 }
 
+.babyfriendly main .prototype.four .text {
+  background: #0DB69F;
+  color: #fff;
+}
+
+.babyfriendly main .prototype.four .image {
+  background-color: #31C0AD;
+}
+
 .babyfriendly main .prototype .text {
   padding-bottom: 90px;
   display: flex;
@@ -1529,7 +1538,7 @@ main .container .image img {
 }
 
 .babyfriendly main .prototype .text p {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 .babyfriendly main .prototype .image {
