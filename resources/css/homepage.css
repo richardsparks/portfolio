@@ -10,7 +10,6 @@
   /* background: url("./../images/homepage-bg.png") no-repeat center; */ // /removed background-image
 }
 
-
 .homepage header div.intro {
   margin-top: -50px;
   height: 100%;
@@ -35,7 +34,22 @@
   line-height: 2.4rem;
 }
 
-.homepage header div.intro img {
+.homepage header div.circles {
+  margin: 0 auto;
+}
+
+.homepage header div.circles img {
+  width: 110px;
+  height: 10px;
+}
+
+.homepage header div.arw {
+  margin: 0 auto;
+}
+
+.homepage header div.arw img {
+  width: 14px;
+  height: 20px;
 }
 
 /* Animation */
@@ -85,6 +99,9 @@
 @media only screen and (max-width: 600px) {
   .homepage header h1 {
     font-size: 2rem;
+  }
+  .homepage header br {
+    display: none;
   }
 }
 

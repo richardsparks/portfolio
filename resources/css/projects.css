@@ -387,7 +387,7 @@ main .container .image img {
 
 @media only screen and (max-width: 580px) {
   .mcdonalds main .prototype .image {
-    background: #C7E5E4;
+    background-color: #C7E5E4;
   }
 }
 
@@ -479,13 +479,7 @@ main .container .image img {
 
 @media only screen and (max-width: 580px) {
   .mcdonalds main .quote .text {
-    padding-bottom: 60px;
-  }
-  .mcdonalds main .quote .text h3 {
-    line-height: 2rem;
-  }
-  .mcdonalds main .quote .text h4 {
-    margin-top: 1rem;
+    display: none;
   }
 }
 
@@ -502,14 +496,17 @@ main .container .image img {
 /***** Brief *****/
 
 .ao main .brief {
-
-  background: #5C6F7B url("./../images/proj-ao-brief@2x.png") no-repeat center;
+  background: #5C6F7B url("./../images/proj-ao-brief@2x.jpg") no-repeat center;
   background-size: cover;
   color: white;
 }
 
 .ao main .brief {
   height: 720px;
+}
+
+.ao main .brief .text  {
+  padding-bottom: 2rem;
 }
 
 @media only screen and (max-width: 580px) {
@@ -539,6 +536,7 @@ main .container .image img {
 
 .ao main .approach .text {
   order: 2;
+  padding-bottom: 2rem;
 }
 
 .ao main .approach .image {
@@ -583,7 +581,7 @@ main .container .image img {
 
 @media only screen and (max-width: 580px) {
   .ao main .prototype .image {
-    background: #F4F3F1;
+    background-color: #F4F3F1;
   }
 }
 
@@ -641,6 +639,7 @@ main .container .image img {
 
 .ao main .campaign-update .text {
   width: 100%; /* overide default 50% width */
+  padding-bottom: 2rem;
 }
 
 .ao main .campaign-update .text div {
@@ -750,6 +749,12 @@ main .container .image img {
   background: url("./../images/line-vert-white.svg") no-repeat left bottom;
 }
 
+@media only screen and (max-width: 580px) {
+  .nationalgrid header .text {
+    background: none;
+  }
+}
+
 /***** Brief *****/
 
 .nationalgrid main .brief {
@@ -791,6 +796,15 @@ main .container .image img {
   text-align: center;
 }
 
+.nationalgrid main .audience .persona {
+  width: 12%;
+}
+
+.nationalgrid main .audience .persona img {
+  width: 100%;
+  height: auto;
+}
+
 .nationalgrid main .audience .personas h4 {
   margin: 20px 20px 0 20px;
   font-size: 1.2rem;
@@ -815,7 +829,6 @@ main .container .image img {
   }
 
   .nationalgrid main .audience .personas {
-    display: inline; /* overide flex */
     margin: 40px 20px 0 20px;
   }
 
@@ -898,7 +911,7 @@ main .container .image img {
 
 @media only screen and (max-width: 580px) {
   .nationalgrid main .prototype .image {
-    background: #3B144A;
+    background-color: #3B144A;
   }
 }
 
@@ -959,6 +972,7 @@ main .container .image img {
 @media only screen and (max-width: 580px) {
   .nationalgrid main .map .text div {
     margin-right: 30px;
+    padding-bottom: 2rem;
   }
 
   .nationalgrid main .map .screencapture {
@@ -1044,6 +1058,12 @@ main .container .image img {
   background: url("./../images/line-vert-white.svg") no-repeat left bottom;
 }
 
+@media only screen and (max-width: 580px) {
+  .theguardian header .text {
+    background: none;
+  }
+}
+
 /***** Brief *****/
 
 .theguardian main .brief {
@@ -1074,7 +1094,7 @@ main .container .image img {
 
 .theguardian main .audience .text div {
   margin-right: 90px;
-  max-width: 800px; /* overide detault 400px */
+  max-width: 550px; /* overide detault 400px */
 }
 
 .theguardian main .audience .personas {
@@ -1084,8 +1104,13 @@ main .container .image img {
   text-align: center;
 }
 
-.theguardian main .audience .personas .persona {
-  width: 146px;
+.theguardian main .audience .persona {
+  width: 12%;
+}
+
+.theguardian main .audience .persona img {
+  width: 100%;
+  height: auto;
 }
 
 .theguardian main .audience .personas h4 {
@@ -1100,6 +1125,8 @@ main .container .image img {
   .theguardian main .audience {
     height: 100%; /* overide fixed height */
   }
+
+
   .theguardian main .audience .text div {
     margin-right: 20px;
   }
@@ -1110,7 +1137,9 @@ main .container .image img {
   }
 
   .theguardian main .audience .persona {
+    margin: 0 auto;
     padding-bottom: 40px;
+    width: 40%;
   }
 }
 
@@ -1136,6 +1165,7 @@ main .container .image img {
 
 .theguardian main .mission .text {
   order: 2;
+  padding-bottom: 2rem;
 }
 
 .theguardian main .mission .image {
@@ -1174,7 +1204,7 @@ main .container .image img {
 }
 
 @media only screen and (max-width: 580px) {
-  .theguardian main .sitemap p {
+  .theguardian main .direction p {
     padding-bottom: 2rem;
   }
 }
@@ -1306,6 +1336,12 @@ main .container .image img {
   box-shadow: 0px 30px 10px 3px rgba(0, 0, 0, 0.07);
 }
 
+@media only screen and (max-width: 580px) {
+  .babyfriendly header .text {
+    background: none;
+  }
+}
+
 /***** Brief *****/
 
 .babyfriendly main .brief {
@@ -1318,7 +1354,7 @@ main .container .image img {
 }
 
 .babyfriendly main .container.brief .text {
-  margin: 0 auto;
+  margin: 4rem auto;
   width: 100%;
   text-align: center;
   display: flex;
@@ -1368,10 +1404,13 @@ main .container .image img {
   padding: 15rem 0 0 0;
 }
 
-
 @media only screen and (max-width: 580px) {
   .babyfriendly main .idea-analysis p {
     padding-bottom: 2rem;
+  }
+  .babyfriendly main .idea-analysis .text div {
+    margin: -5rem 0 4rem 0;
+    padding: 15rem 3rem 0 3rem;
   }
 }
 
@@ -1404,6 +1443,7 @@ main .container .image img {
 @media only screen and (max-width: 580px) {
   .babyfriendly main .affinity {
     height: 100%; /* overide fixed height */
+    padding: 0 3rem 0 3rem;
   }
 }
 
@@ -1424,11 +1464,10 @@ main .container .image img {
   font-size: 1.2rem;
 }
 
-
-
 @media only screen and (max-width: 580px) {
-  .babyfriendly main .persona p {
-    padding-bottom: 2rem;
+  .babyfriendly main .persona .text div {
+    margin: 3rem 2rem;
+    max-width: 100%;
   }
 }
 
@@ -1457,6 +1496,9 @@ main .container .image img {
 }
 
 @media only screen and (max-width: 580px) {
+  .babyfriendly main .problem-solution .text div {
+    margin: 5rem 0;
+  }
   .babyfriendly main .problem-solution p {
     padding-bottom: 2rem;
   }
@@ -1504,7 +1546,7 @@ main .container .image img {
   order: 2;
 }
 
-.babyfriendly main .prototype.one, .babyfriendly main .prototype.three .image {
+.babyfriendly main .prototype.one .image, .babyfriendly main .prototype.three .image {
   order: 1;
 }
 
@@ -1561,14 +1603,22 @@ main .container .image img {
 }
 
 @media only screen and (max-width: 580px) {
-  .theguardian main .prototype .text {
-    padding-bottom: 60px;
+  .babyfriendly main .prototype.one .text, .babyfriendly main .prototype.three .text {
+    order: 1;
   }
+  .babyfriendly main .prototype.one .image, .babyfriendly main .prototype.three .image {
+    order: 2;
+  }
+
   .babyfriendly main .prototype .text h3 {
     line-height: 2rem;
   }
   .babyfriendly main .prototype .text h4 {
     margin-top: 1rem;
+  }
+
+  .babyfriendly main .prototype .text {
+    padding-bottom: 45px;
   }
 }
 
