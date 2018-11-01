@@ -204,6 +204,7 @@ main .container .image img {
 .mcdonalds main .brief .image {
   display: flex;
   align-items: flex-end;
+  overflow: hidden;
 }
 
 .mcdonalds main .brief .image img {
