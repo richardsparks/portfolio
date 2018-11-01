@@ -1526,9 +1526,9 @@ main .container .image img {
 
 .babyfriendly main .container.design-patterns .text div {
   background: url("./../images/proj-bf-magnifing-glass.svg") no-repeat center;
-  margin: 0 auto 8rem auto;
-  padding: 13rem 0 0 0;
-  max-width: 600px;
+  margin: 0 auto 12rem auto;
+  padding: 16rem 0 0 0;
+  max-width: 500px;
 }
 
 @media only screen and (max-width: 580px) {
