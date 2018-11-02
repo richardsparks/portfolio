@@ -1095,7 +1095,7 @@ main .container .image img {
 
 .theguardian main .audience .text div {
   margin-right: 90px;
-  max-width: 550px; /* overide detault 400px */
+  max-width: 600px; /* overide detault 400px */
 }
 
 .theguardian main .audience .personas {
@@ -1565,10 +1565,6 @@ main .container .image img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.theguardian main .prototype .text div {
-  max-width: 600px; /* overide detault 400px */
 }
 
 .babyfriendly main .prototype .text h3 {
