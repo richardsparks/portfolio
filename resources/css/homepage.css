@@ -61,6 +61,10 @@
 
 /* Animation */
 
+.touchevents #app {
+  display: none; /* Hides div on touch devices */
+}
+
 .homepage main {
   margin-top: -50px;
   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
