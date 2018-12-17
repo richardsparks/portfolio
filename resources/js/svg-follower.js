@@ -194,5 +194,7 @@ var Input = /** @class */ (function () {
     }
     return Input;
 }());
-var container = document.getElementById('app');
-var app = new App(container);
+if (!Modernizr.touch && window.innerWidth > 1024) {
+  var container = document.getElementById('app');
+  var app = new App(container);
+}
