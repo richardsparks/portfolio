@@ -61,9 +61,9 @@
 
 /* Animation */
 
-.touchevents #app {
-  display: none; /* Hides div on touch devices */
-}
+/*.touchevents #app {
+  display: none; /* Hides div on touch devices
+}*/
 
 .homepage main {
   margin-top: -50px;
@@ -235,6 +235,7 @@ a.btn-project article {
 }
 
 a:hover.btn-project article {
+  transition: all .2s ease-in-out;
   transform: scale(1.02);
 }
 
